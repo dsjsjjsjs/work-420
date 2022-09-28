@@ -22,7 +22,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://raw.githubusercontent.com/dsjsjjsjs/stock/main/Stock').text
+	prox= requests.get('https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
